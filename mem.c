@@ -9,7 +9,7 @@ main(int argc, char *argv[])
 {
     if (argc != 2) { 
 	fprintf(stderr, "usage: mem <value>\n"); 
-	exit(1); 
+	exit(1); .
     } 
     int *p;                   // memory for pointer is on "stack"
     p = malloc(sizeof(int));  // malloc'd memory is on "heap"
